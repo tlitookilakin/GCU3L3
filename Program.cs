@@ -129,7 +129,7 @@ class Program
 
 				// too big
 				if (sides > MAX_SIDES)
-					Console.WriteLine($"{sides} is too many sides for a die!");
+					Console.Write($"{sides} is too many sides for a die!");
 
 				// in range
 				else if (sides > 0)
